@@ -10,4 +10,6 @@
 
 @interface NSString (UrlEncode)
 
+-(NSString*) UrlEncode;
+
 @end

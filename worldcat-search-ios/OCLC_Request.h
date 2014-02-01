@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+UrlEncode.h"
 
-@interface OCLC_ : NSObject
+@interface OCLC_Request : NSObject <NSURLConnectionDataDelegate>
+
+
+- (void) makeRequest;
 
 @end
